@@ -1,0 +1,77 @@
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:turquoise;
+  }
+  
+  li.navbar {
+    float: left;
+  }
+  
+  li.navbar a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li.navbar a:hover:not(.active) {
+    background-color:burlywood;
+  }
+  
+  .active {
+    background-color: seagreen;
+  }
+  
+  .section1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+  }
+  
+  h2{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightblue;
+    
+  }
+  h3{
+    font-family:'Times New Roman', Times, serif ;
+  }
+  table {
+    font-family:'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    width: 60%;
+    font-size: x-large;
+  }
+  
+  .Table1{
+    background-color: palegreen;
+  }
+  
+  .Table2{
+    background-color: turquoise;
+  }
+  
+  .Table3{
+    background-color: salmon;
+  }
+  
+  .Table4{
+    background-color: wheat;
+  }
+  
+  .Table5{
+    background-color: salmon;
+  }
+  
+  .Table6{
+    background-color: wheat;
+  }
+  
+  .Table7{
+    background-color: tomato;
+  }
+  
+  
