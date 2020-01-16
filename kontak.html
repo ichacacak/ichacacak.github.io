@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Respon Anda!</title>
+	<link rel="stylesheet" href="css/style.css"> 
+</head>
+
+<body background="gambar/1NsSLy.jpg">
+	<ul class="navbar">
+		<li class="navbar"><a href="index.html">Home</a></li>
+		<li class="navbar"><a href="Galeri.html">Galeri</a></li>
+		<li class="navbar"><a class= "active" href="Kontak.html">Kontak</a></li>
+		<li class="navbar"><a href="About.html">About</a></li>
+	</ul>
+
+	<h2 align="center" >Data Respon</h2>
+
+	<table>
+	<tr>
+		<td><label for="nama">Nama Lengkap</label></td>
+		<td><input type="text"></td>
+	</tr>
+
+	<tr>
+		<td><label for="gender">Jenis Kelamin</label></td>
+		<td><select name="gender" id="">
+			<option value="pria">Pria</option>
+			<option value="wanita">Wanita</option>
+		</select></td>
+	</tr>
+
+	<tr>
+		<td><label for="ttl">Tanggal Lahir</label></td>
+		<td><input type="date"> (dd/mm/yyyy)</td>
+	</tr>
+	<tr>
+		<td><label for="nohp">No. Handphone</label></td>
+		<td><input type="number"></td>
+	</tr>
+
+	<tr>
+		<td><label for="npwp">NPWP</label></td>
+		<td><input type="text"></td>
+	</tr>
+
+	<tr>
+		<td><label for="kwn">Kewarganegaraan</label></td>
+		<td>
+			<select name="kwn" id="">
+				<option value="ind">INDONESIA</option>
+				<option value="my">LUAR NEGERI</option>
+				<input type="submit" name="simpan" value="...">
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="1">Respon</td>
+		<td>
+			<input type="radio">Sangat Tidak Setuju<br>
+			<input type="radio">Tidak Setuju<br>
+			<input type="radio">Agak Setuju<br>
+			<input type="radio">Setuju<br>
+			<input type="radio">Sangat Setuju
+		</td>
+	</tr>
+	<tr>
+		<td colspan="1"></td>
+		<td>
+			<input type="submit" value="Simpan">
+			<input type="reset" value="Hapus">
+		</td>
+</tr>
+</table>
+
+
+
+</body>
+</html>
